@@ -1,0 +1,2 @@
+after using a classic neuronal network with Dense layers, from 512 to 1, we got ~60% of R². 
+In the begigninbg of the training, it was stuck to 15%, mainly because of the last quartile values thay would affect the training of the Network highly
