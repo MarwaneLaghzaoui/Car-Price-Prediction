@@ -1,2 +1,20 @@
+In the begigninbg of the training, the performances were really bad with a result of R² being around 15%
+Its explained by first and last percentile values thay would affect the training of the Network highly. After removing them, R² went up to 55-65%.
+
+History of models explored
+
+1) Linear regression : 
+
+Faster model to set up and train and reaches 57% of explainablity. Good to get started but not optimal.
+
+2) Neuronal network :
+
 after using a classic neuronal network with Dense layers, from 512 to 1, we got ~60% of R². 
-In the begigninbg of the training, it was stuck to 15%, mainly because of the last quartile values thay would affect the training of the Network highly
+with 2048 as the entry layer, we can go up to 63% but going up with model size is not recommended.
+
+3) Random Forest :
+
+Seems to be the best model for this particular problem. We can easily set up a research of optimal parameters and with a training relatively fast 
+(19 min to find optimal parameters and 20 seconds for the optimal model) we can reach 65% of explainablity
+
+
