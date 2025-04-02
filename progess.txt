@@ -18,3 +18,5 @@ Seems to be the best model for this particular problem. We can easily set up a r
 (19 min to find optimal parameters and 20 seconds for the optimal model) we can reach 65% of explainablity
 
 
+Now that we got to understand the dataset, lets add more rows that we previously deleted such as transmission, accident and car colors.
+We will split the datasets with onehot encoded and label encoded data because we need to know if it makes a difference.
